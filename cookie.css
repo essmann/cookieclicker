@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+    background-color: lightsalmon
+}
+#buttons{
+    float: left;
+}
+.container{
+    display: flex;
+    border: 2px solid black;
+    height: 100vh;
+    
+    
+}
+.cookie{
+    text-align: center;
+}
+.cookie:hover{
+    cursor: pointer;
+}
+
+.counter{
+
+}
+
+.parent{
+    display: flex;
+    
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+    margin-top: -5rem;
+}
+.upgrades{
+    border: 2px solid black;
+    margin-left: auto;
+    width: 15rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.one{    border: 2px solid black;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    
+}
+.purchase{
+    
+    
+}
+.purchase>button:hover{
+    background-color: tomato;
+    cursor: pointer;
+}
+.one>div>img{
+    
+}
+.two>div>img{
+    border-radius: 50%;
+}
+.two{    border: 2px solid black;
+    flex: 1;
+}
+.three{    border: 2px solid black;
+    flex: 1;
+}
+.four{    border: 2px solid black;
+    flex: 1;
+}
+.five{    border: 2px solid black;
+    flex: 1;
+}
+.six{    border: 2px solid black;
+    flex: 1;
+}
+
